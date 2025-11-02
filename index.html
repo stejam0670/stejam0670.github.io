@@ -73,9 +73,35 @@
           </tfoot>
         </table>
       </section>
-      <section>
+      <section id="contact">
         <header>Contact</header>
         <p>Contact placeholder text</p>
+
+        <form action="#" method="post">
+          <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+
+          <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+
+          <div>
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject" />
+          </div>
+
+          <div>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5"></textarea>
+          </div>
+
+          <div>
+            <input type="submit" value="Send Message" />
+          </div>
+        </form>
       </section>
     </main>
 
